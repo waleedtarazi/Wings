@@ -4,3 +4,6 @@ class Flight():
         self.departure = departure
         self.destination = destination
         self.id = random.random() 
+
+class Booking():
+    pass

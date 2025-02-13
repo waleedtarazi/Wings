@@ -6,3 +6,6 @@ class Booking():
         self.user_name = user_name
         self.id = random.random()
         pass
+    
+    def get_booking_detiels(self):
+        return self.flight.departure + self.user_name
